@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #2874f0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 25px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn{
+    padding: 5px 10px;
+    background:#2874f0;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+  
+
+.search input{
+    width:30vw;
+    height: 25px;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.search{
+   display: flex;
+   align-items: center;
+}
+nav {
+    display: flex;
+}
+.card-item{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 0 20px;
+    
+}
+.cards{
+    display: flex;
+    justify-items: center;
+    overflow: hidden;
+    margin: 12px 0 0 65px;
+}
+.card{
+   max-width: 91vw;
+    /* margin:auto; */
+    margin: 37px 0 auto;
+    overflow: hidden;
+
+}
+.card h2{  
+ 
+    font-family: 'Ubuntu', sans-serif;
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+      
+}
+
+footer {
+    background-color: #2874f0;
+    height: 12vh;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
